@@ -1,0 +1,58 @@
+Conceptual Aside
+
+Name/Value Pair: a name which maps to a unique value
+
+Single Threaded Synchronous Execution: One command at a time, One line at a time
+
+Types and JavaScript
+ 
+
+BIGWORDS
+
+Syntax Parser: A program that reads your code and determines what it does and if its grammar is valid
+
+Lexical Environment: Where something sits physically in the code you write.
+
+Execution Context: A wrapper to help manage the code that is running.
+
+Single Threaded: One command at a time
+
+Synchronous: One at a time
+
+Invocation: Running a Function, "invoke the function"
+
+Variable Environment: Where the variables Live.
+
+Scope: Where a variable is available in your code.
+
+Asynchronous: More than one at a time.
+
+Dynamic Typing: You don't tell the engine what type of data a variable holds, it figures it out while your code is running.
+
+Primitive Type: A type of data that represents a single value
+-Undefined: represents lack fo existence
+-NULL: null represents lack of existence(You can set a variable to this)
+-Boolean: either true or false
+-Number: Floating point number(There's always some decimals.) There's only one number type, and it can make math weird.
+-String: a sequence of characters, both '' and "" can be used to define it.
+-symbol: used in ES6 (The next version of Javascript)
+
+Operators: A Special function that is syntactically different
+
+Associativity: What order operator functions get called in: left-to-right or right-to-left.
+
+Coercion: converting a value from one type to another
+
+First class Functions: Everything you can do with other types you can do with functions.
+
+Whitespace: invisible characters that create literal 'space' in your written code.
+
+Callback Function: A function you give to another function, to be run when the other function is finished.
+
+Function Constructors: A normal function that is used to construcdt objects. 
+
+Syntactic sugar: Features designed to make writing code more efficient, clean, or understandable but, in reality, don't let you do things that you couldnt' already accomplish before in another way.
+
+Method Chaining: Calling one method after another, and each method affects the parent object.
+
+Thennable Object: an object that has a 'then' function.
